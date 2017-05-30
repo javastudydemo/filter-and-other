@@ -12,7 +12,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		
+
 		<version.slf4j>1.7.5</version.slf4j>
 		<version.logback>1.1.7</version.logback>
 
@@ -21,14 +21,26 @@
 	</properties>
 
 	<dependencies>
-
+		<!--****************************** servlet ****************************** -->
 		<dependency>
-			<groupId>org.apache.cxf</groupId>
-			<artifactId>apache-cxf</artifactId>
-			<version>${cxf.version}</version>
-			<type>pom</type>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
 		</dependency>
 
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>jsp-api</artifactId>
+			<version>2.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>3.0-alpha-1</version>
+		</dependency>
+
+		<!--****************************** test ****************************** -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
