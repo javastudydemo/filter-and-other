@@ -8,6 +8,7 @@
 </head>
 <body>
 	Login...............
+	<p>Welcome ${username}!</p>
 	<p>${tip}</p>
 </body>
 </html>
